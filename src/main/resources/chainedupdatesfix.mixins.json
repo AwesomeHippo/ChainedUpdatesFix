@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.awesomehippo.chainedupdatesfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "chainedupdatesfix.refmap.json",
+  "mixins": [
+    "LevelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
